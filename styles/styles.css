@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(220, 219, 219);
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.hero-container{
+    /* padding: 1em; */
+    /* box-shadow: 10px 10px 10px indigo;
+    border-radius: 8%; */
+    background-image:url(bg.png);
+    opacity: 80%;
+    background-color: rgba(0,0,0,0.5);
+    max-width:2000px;
+    padding-top:50px;
+    text-align: center;
+    color:white;
+    height:600px;
+    /* background-size:cover;
+    background-position:center;
+    position: relative; */
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin:0;
+    border: 2px solid rebeccapurple;
+}
+.container{
+    background-color:plum;
+    border: plum;
+    max-width:2000px;
+    padding:20px;
+    } 
+.remove-assignment-content-0{
+align-items: center;
+}
+  
+.remove-assignment-content-1{
+    max-width:2000px;
+    margin:100px auto;
+    padding:20px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+}       
+.card_img{
+        width:400px ;
+        height:auto ;
+        border-radius: 20px;
+        box-shadow:rgba(21, 13, 61, 0.15)
+        0px 48px 100px 0px;
+        border: 2px solid #996ed9;
+        margin-left: 20px;
+        margin-right: 10px;
+        box-shadow: 10px 10px 10px indigo;
+        
+    }
+
+.remove-assignment-content button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+.remove-assignment-content button:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+.youtube {
+    border-radius: 20px;
+    box-shadow:rgba(21, 13, 61, 0.15);
+    margin-left: 20px;
+    max-width: 100%;
+    /* box-shadow: 10px 10px 10px indigo;
+    border-radius: 8%; */
+  }
+
+  .googleMap {
+    border-radius: 20px;
+    box-shadow:rgba(21, 13, 61, 0.15);
+    margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+    /* box-shadow: 10px 10px 10px indigo;
+    border-radius: 8%; */
+  }
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 30px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    /* box-shadow: 10px 10px 10px indigo;
+    border-radius: 8%; */
+  }
+  
+.active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+.panel {
+    
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    padding: 30px;
+  }
+
+
+nav{
+    /* text-align:left;  */
+       letter-spacing: .1rem;
+      /* padding: 1rem; */
+      margin-right: 5px;
+      /* list-style-type:none; */
+   }
+
+nav ul{
+       padding-left: 0;
+   }
+nav ul li{
+       /* color: beige; */
+       display: inline-block;
+       margin: 0.5rem;
+       font-size: 0.7rem;
+   }
+nav ul li a{
+       color:beige;
+   }
+nav li a:hover{
+       background-color: aquamarine;
+   }
+h1{
+    background-color: rgba(0, 0,0, .4);
+    color:beige;
+    font-size: 2.5rem;
+    text-align: center;
+    padding:0;
+    /* left:3rem; */
+    /* margin-top: 100px; */
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+h2{
+	font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.3rem;
+	background-color:mediumpurple;
+	padding:10px;
+	color:white;
+}
+p{
+    font-weight: 300;
+    font-size: medium; 
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+  }
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+footer {
+	background-color: rgba(0,0,0,0.5);
+	padding:20px;
+	background-size:cover;
+	border: 2px solid rebeccapurple;
+  display: flex; /* Make the footer container a flexbox */
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines if needed */
+  justify-content: space-between; /* Align items horizontally with space between */
+  color:white;
+}
+
+footer nav {
+  flex: 1; /* Allow navigation items to fill available space */
+}
+
+footer iframe {
+  flex: 1; /* Allow map to fill available space */
+  margin-left: 10px; /* Add some margin between nav and map */
+}
+
+footer p {
+  width: 100%; /* Make copyright text span the full width */
+  text-align: center; /* Center align copyright text */
+  margin-top: 20px; /* Add some margin above copyright text */
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Information{
+  flex: 1; /* Allow map to fill available space */
+  margin-left: 10px; 
+  color:white;
+}
+
+
